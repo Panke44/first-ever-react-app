@@ -1,0 +1,23 @@
+.double{
+    background-color: #1b1919;
+    height: 200px;
+}
+
+.col-6{
+    color: white;
+    padding: 20px;
+}
+
+.col-6 p{
+    padding: 20px 50px;
+    text-align: justify;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.col-6 h4{
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    border-bottom: 2px solid #f6914a;
+}
