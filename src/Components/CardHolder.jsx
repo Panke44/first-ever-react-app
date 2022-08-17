@@ -1,4 +1,3 @@
-import React, { Children } from 'react'
 import style from './CardHolder.module.css'
 
 const CardHolder = (props) => {
