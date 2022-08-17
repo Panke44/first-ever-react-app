@@ -1,13 +1,10 @@
-import React from 'react'
-import Card from './Card'
+import React, { Children } from 'react'
 import style from './CardHolder.module.css'
 
-const CardHolder = () => {
+const CardHolder = (props) => {
   return (
     <div className={style['card-holder']} >
-      <Card/>
-      <Card/>
-      <Card/>
+      {props.Children}
     </div>
   )
 }

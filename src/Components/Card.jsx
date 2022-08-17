@@ -1,16 +1,12 @@
-import React from 'react'
-import Button from './Button'
-
+import React, { Children } from 'react'
 import cardImg from  '../Images/1.jpg'
 import style from './Card.module.css'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className={style['card']}>
-        <img src={cardImg}/>
-        <h3>Lorem, ipsum.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
-        <Button/>
+      <img src={cardImg} alt="Dog on white freightliner cascadia truck"/>
+      {props.Children}
     </div>
   )
 }
