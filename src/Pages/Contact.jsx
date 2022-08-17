@@ -14,7 +14,25 @@ const Contact = () => {
         <Title naslov="Kontakt"/>
 
         <CardHolder>
-          <Card></Card>
+          <Card>
+            <h3>Truck Sale</h3>
+            <p>Looking to lease, rent or buy a truck? See what we have available for you.</p>
+            <Button btn="Check inventory"></Button>
+          </Card>
+
+          <Card>
+            <h3>Driver application</h3>
+            <p>We are hiring owner operators, Company drivers & Team drivers.</p>
+            <Button btn="Apply now"></Button>
+          </Card>
+          
+          <Card>
+            <h3>Cover Your Load</h3>
+            <p>Looking for a carrier that can safely move your freight? Send us your offer.</p>
+            <Button btn="Request a quote"></Button>
+          </Card>
+          
+
         </CardHolder>
     </div>
   )

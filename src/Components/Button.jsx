@@ -5,7 +5,7 @@ const Button = (props) => {
   return (
     <div>
         <button type='button' className={style['btn']}>
-           asdasd
+           {props.btn}
         </button>
     </div>
   )
