@@ -15,18 +15,36 @@ body {
   margin-right: 50px;
 }
 
-.navMenu a {
+
+.nav-item {
   color: black;
   text-decoration: none;
   font-size: 1.2em;
   text-transform: uppercase;
-  font-weight: 500;
   display: inline-block;
   width: 100px;
   margin: 5px 25px;
-  transition: 0.1s ease;
+  text-align: left;
+  font-weight: 400;
+  transition: 0.3s ease;
 }
 
-.navMenu a:hover {
-  color: #f6914a;
+.nav-item:hover{
+  color: black;
+  font-weight: 500;
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  border-radius: 20px;
+  background: #000;
+  transition: width .4s;
+}
+
+.nav-item:hover::after {
+  width: 40%;
+  transition: width .3s;
 }
