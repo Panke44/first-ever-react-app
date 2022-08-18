@@ -11,8 +11,10 @@ body {
 }
 
 .navMenu {
-  float: right;
+  text-align: right;
   margin-right: 50px;
+  width: 100%;
+  background-color: #f6914a;
 }
 
 

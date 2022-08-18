@@ -1,14 +1,16 @@
 .red-button{
     width: 170px;
     padding: 5px 15px;
-    background-color: red;
+    background-color: #f6914a;
     color: white;
     border-radius: 25px;
-    border: 1px solid red;
+    border: 1px solid #f6914a;
     transition: 0.3s ease;
+    box-shadow: rgba(246, 145, 74, 0.3) 0px 7px 29px 0px;
+    font-weight: 600;
 }
 
 .red-button:hover{
-    color: red;
+    color: #f6914a;
     background-color: white;
 }

@@ -14,7 +14,6 @@ const Navbar = () => {
             <Link to="/Contact">
                 <a className='nav-item'>Contact</a>
             </Link>
-
         </nav>
     )
 }

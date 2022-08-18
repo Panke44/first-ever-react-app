@@ -19,7 +19,7 @@ const About = () => {
           <Card cardImg={nyc}>
             <h3> New York City</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id, recusandae tempore dignissimos cumque pariatur.</p>
-            <Button></Button>
+            <RedButton btn="Check inventory" link="/truck-sale" alt="Box Truck"></RedButton>
           </Card>
 
           <Card cardImg={chicago}>
