@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <Navbar/>
-        <Title naslov="Home"/>
+        <Title> <h4> Home </h4> </Title>
         <CardHolder/>
     </div>
   )

@@ -15,9 +15,8 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <Title> <h4> NASLOV </h4> </Title>
+      <Title> <h4> Contact </h4> </Title>
 
-      <h4>asdasdahsdkjadshkj</h4>
       <CardHolder>
         <Card cardImg={img1} >
           <h3>Truck Sale</h3>
