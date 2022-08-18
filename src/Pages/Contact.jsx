@@ -4,7 +4,6 @@ import Title from '../Components/Title'
 import CardHolder from '../Components/CardHolder'
 import Card from '../Components/Card'
 import Button from '../Components/Button'
-import RedButton from '../Components/RedButton'
 import DoubleText from '../Components/DoubleText'
 
 import img1 from '../Images/box.jpg'
@@ -22,7 +21,7 @@ const Contact = () => {
         <Card cardImg={img1} >
           <h3>Truck Sale</h3>
           <p>Looking to lease, rent or buy a truck? See what we have available for you.</p>
-          <RedButton btn="Check inventory" link="/truck-sale" alt="Box Truck"></RedButton>
+          <Button btn="Check inventory" link="/truck-sale" alt="Box Truck"></Button>
         </Card>
 
         <Card cardImg={img2}>

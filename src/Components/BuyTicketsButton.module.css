@@ -6,7 +6,7 @@
     border-radius: 25px;
     border: 1px solid black;
     transition: 0.3s ease;
-    /* box-shadow: rgba(246, 145, 74, 0.3) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 29px 0px;
     font-weight: 600;
 }
 
