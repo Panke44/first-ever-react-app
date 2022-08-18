@@ -3,6 +3,7 @@ import Navbar from '../Components/Navbar';
 import Title from '../Components/Title'
 import CardHolder from "../Components/CardHolder";
 import Card from "../Components/Card";
+import RedButton from '../Components/RedButton';
 import Button from '../Components/Button';
 
 import nyc from "../Images/nyc.jpg";
@@ -18,6 +19,7 @@ const About = () => {
           <Card cardImg={nyc}>
             <h3> New York City</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id, recusandae tempore dignissimos cumque pariatur.</p>
+            <Button></Button>
           </Card>
 
           <Card cardImg={chicago}>
