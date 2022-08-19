@@ -4,6 +4,7 @@ import Title from '../Components/Title'
 import CardHolder from "../Components/CardHolder";
 import Card from "../Components/Card";
 import BuyTicketsButton from '../Components/BuyTicketsButton';
+import DoubleText from '../Components/DoubleText'
 
 import nyc from "../Images/nyc.jpg";
 import chicago from "../Images/chicago.jpg";
@@ -34,7 +35,14 @@ const About = () => {
           </Card>
 
         </CardHolder>
-    </div>
+
+        <DoubleText 
+        header1="Header One"
+        header2="Header Two"
+        paragraph1="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, facere?" 
+        paragraph2="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, facere?"
+        />
+    </div> 
   )
 }
 

@@ -10,8 +10,8 @@ const DoubleText = (props) => {
                     <p> {props.paragraph1} </p>
                 </div>
                 <div className="col-6">
-                    <h4> {props.header1} </h4>
-                    <p> {props.paragraph1} </p>
+                    <h4> {props.header2} </h4>
+                    <p> {props.paragraph2} </p>
                 </div>
             </div>
         </div>
